@@ -30,7 +30,7 @@
 .header-menu li:hover {
   font-weight: 700;
 }
-@media (max-width: 360px) {
+@media (max-width: 365px) {
   .headre-bg {
     background: rgb(255, 255, 255);
     backdrop-filter: none;
@@ -39,6 +39,10 @@
     padding: 20px 16px 16px 16px;
     justify-content: center;
     gap: 12px;
+  }
+
+  .header-menu{
+    justify-content: center;
   }
   .header-menu li:last-child {
     padding-right: 12px;
