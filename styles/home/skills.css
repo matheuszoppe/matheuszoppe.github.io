@@ -24,9 +24,7 @@
   gap: 28px 98px;
 }
 
-
-
-.skills-itens li span{
+.skills-item-title{
   display: block;
   padding-bottom: 12px;
 }
