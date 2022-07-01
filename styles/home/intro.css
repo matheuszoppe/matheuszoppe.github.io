@@ -1,12 +1,8 @@
-.intro-bg {
-  padding-top: 90px;
-}
-
 .intro {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 60px;
+  padding-top: 150px;
 }
 .intro-content {
   display: grid;
@@ -35,21 +31,21 @@
 .intro-content-button:hover {
   background-color: var(--cor-p3);
 }
-@media (max-width: 760px){
-  .intro-img{
+@media (max-width: 760px) {
+  .intro-img {
     max-width: 60%;
   }
 }
-@media (max-width: 600px){
-  .intro-img{
+@media (max-width: 600px) {
+  .intro-img {
     display: none;
   }
 
-  .intro{
+  .intro {
     justify-content: center;
   }
 
-  .intro-content{
+  .intro-content {
     justify-items: center;
     text-align: center;
   }
@@ -59,8 +55,8 @@
   }
 }
 
-@media (max-width: 365px){
-  .intro{
+@media (max-width: 365px) {
+  .intro {
     padding-top: 120px;
   }
 }

@@ -1,0 +1,32 @@
+.skills-bg {
+  background-color: var(--cor-4);
+}
+
+.skills {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.skills-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+
+.skills-content p {
+  padding-bottom: 60px;
+}
+
+.skills-itens{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px 98px;
+}
+
+
+
+.skills-itens li span{
+  display: block;
+  padding-bottom: 12px;
+}
