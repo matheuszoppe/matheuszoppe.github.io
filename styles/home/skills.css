@@ -16,6 +16,7 @@
 
 .skills-content p {
   padding-bottom: 60px;
+  max-width: 48ch;
 }
 
 .skills-itens{
@@ -29,3 +30,13 @@
   padding-bottom: 12px;
 }
 
+@media (max-width: 600px) {
+  .skills{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .skills-content p {
+    padding-bottom: 40px;    
+  }
+}
