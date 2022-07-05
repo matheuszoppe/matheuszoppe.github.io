@@ -1,0 +1,131 @@
+.projects {
+  background-color: var(--cor-4);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.projects-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+
+.projects-texts p {
+  max-width: 40ch;
+  padding-bottom: 12px;
+}
+
+.projects-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+  padding-top: 48px;
+}
+
+.project-item,
+.project-capa {
+  position: relative;
+}
+
+@keyframes arrowMooving {
+  from {
+    transform: translateY(1px);
+  }
+  to {
+    transform: translateY(-2px);
+  }
+}
+
+.button-open-project-description {
+  background-color: rgba(001, 001, 001, 0.7);
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 12px;
+  left: 45%;
+  cursor: pointer;
+}
+.button-open-project-description img {
+  animation: arrowMooving 0.6s ease-in 0.1s infinite alternate;
+}
+
+.project-item-content {
+  height: 100%;
+  width: 100%;
+  padding: 20px 20px 20px 32px;
+  background-color: rgba(001, 001, 001, 0.9);
+
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: auto 24px;
+  gap: 12px;
+  align-items: center;
+
+  /* transition: 1s ease-in; */
+}
+
+.hover {
+  display: none;
+}
+
+.project-item-content p {
+  max-width: 40ch;
+  /* font-size: 1.4rem; */
+  padding: 12px 0;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.project-item-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-self: end;
+}
+
+@media (min-width: 1367px) {
+  .projects-items {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 970px){
+  .projects-items{
+    grid-template-columns: 1fr 1fr;
+  }
+  .project-capa img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px){
+  .projects-items{
+    grid-template-columns: 1fr;
+  }
+
+  
+
+  .project-item-links{
+    gap: 20px;
+  }
+
+  
+}

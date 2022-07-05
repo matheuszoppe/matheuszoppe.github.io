@@ -24,6 +24,10 @@
   font: normal 3.6rem/1.1 var(--font-2), sans-serif;
 }
 
+.font-1-m {
+  font: bold 1.8rem/1.1 var(--font-2), sans-serif;
+}
+
 .font-2-xl{
   font: 700 4rem/1.1 var(--font-3), sans-serif;
 }
@@ -63,6 +67,9 @@
 
   .font-2-l-b{
     font: 700 1.6rem/1.4 var(--font-3), sans-serif;
+  }
+  .font-2-m{
+    font: 400 1.2rem/1.5 var(--font-3), sans-serif;
   }
 
   .font-2-m-b{

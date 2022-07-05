@@ -36,19 +36,13 @@ img {
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1200px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-}
+
 
 .sr-only {
   position: absolute;
@@ -61,3 +55,4 @@ img {
   white-space: nowrap;
   border-width: 0;
 }
+
