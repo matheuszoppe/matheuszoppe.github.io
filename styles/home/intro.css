@@ -32,6 +32,7 @@
 
 .intro-content-button:hover {
   background-color: var(--cor-p3);
+  content: "LinkedIn";
 }
 @media (max-width: 760px) {
   .intro-img {

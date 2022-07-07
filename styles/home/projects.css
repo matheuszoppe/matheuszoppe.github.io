@@ -24,7 +24,7 @@
 }
 
 .project-item,
-.project-capa {
+.project-cover {
   position: relative;
 }
 
@@ -107,25 +107,21 @@
   }
 }
 
-@media (max-width: 970px){
-  .projects-items{
+@media (max-width: 970px) {
+  .projects-items {
     grid-template-columns: 1fr 1fr;
   }
-  .project-capa img{
+  .project-cover img {
     width: 100%;
   }
 }
 
-@media (max-width: 600px){
-  .projects-items{
+@media (max-width: 600px) {
+  .projects-items {
     grid-template-columns: 1fr;
   }
 
-  
-
-  .project-item-links{
+  .project-item-links {
     gap: 20px;
   }
-
-  
 }

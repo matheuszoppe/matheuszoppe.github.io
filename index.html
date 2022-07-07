@@ -8,7 +8,7 @@
   <title>Portfólio | Matheus Zoppé</title>
   <link rel="shortcut icon" href="./assets/darth-vader.svg" type="image/x-icon">
 
-  
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +25,7 @@
       </div>
       <nav aria-label="Navegação primaria" class="header-menu font-2-m cor-c5">
         <ul>
-          <li><a href="#sobre"> Sobre</a></li>
+          <li><a href="#about-me"> Sobre</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projetos</a></li>
           <li><a href="#contacts">Contato</a></li>
@@ -34,14 +34,16 @@
     </div>
   </header>
   <main>
-    <section class="intro container" id="sobre">
+    <section class="intro container" id="about-me">
       <div class="intro-content">
         <span class="font-1-xl">Olá, eu sou o</span>
         <h1 class="font-1-xxl">Matheus<br>Zoppé</h1>
         <p class="font-2-l">Desenvolvedor <strong>Front End</strong>
           <br>e entusiasta em <strong>Design UI</strong>
         </p>
-        <a href="#" class="intro-content-button cor-c0 font-2-m-b"><img src="./assets/LinkedIN.svg" alt="logo LinkedIn">Conheça meu LinkedIn</a>
+        <a href="https://www.linkedin.com/in/matheus-zoppe/" target="_blank" class="intro-content-button cor-c0 font-2-m-b"><img src="./assets/LinkedIN.svg" alt="logo LinkedIn">
+          Conheça meu LinkedIn
+        </a>
       </div>
       <div class="intro-img">
         <img src="./assets/foto-perfil.png" alt="">
@@ -49,6 +51,7 @@
     </section>
 
     <section class="skills-bg" id="skills">
+      <div class="xwing-detail"><img src="./assets/xwing-way.svg" alt=""></div>
       <div class="skills container">
         <div class="skills-content">
           <div class="skills-title">
@@ -81,7 +84,7 @@
                 <div class="saber-body">
                 </div>
                 <div class="saber-light">
-                  <span class="intermediary"></span>
+                  <span class="intermediary js-scroll"></span>
                 </div>
               </div>
             </li>
@@ -94,7 +97,7 @@
                 <div class="saber-body">
                 </div>
                 <div class="saber-light">
-                  <span class="basic"></span>
+                  <span class="basic js-scroll"></span>
                 </div>
               </div>
             </li>
@@ -107,7 +110,7 @@
                 <div class="saber-body">
                 </div>
                 <div class="saber-light">
-                  <span class="intermediary"></span>
+                  <span class="intermediary js-scroll"></span>
                 </div>
               </div>
             </li>
@@ -120,7 +123,7 @@
                 <div class="saber-body">
                 </div>
                 <div class="saber-light">
-                  <span class="basic"></span>
+                  <span class="basic js-scroll"></span>
                 </div>
               </div>
             </li>
@@ -132,7 +135,7 @@
                 <div class="saber-body">
                 </div>
                 <div class="saber-light">
-                  <span class="basic"></span>
+                  <span class="basic js-scroll"></span>
                 </div>
               </div>
             </li>
@@ -158,11 +161,12 @@
       <div>
         <ul class="projects-items">
           <li class="project-item">
-            <div class="project-capa">
-              <button 
-              aria-label="Descrição do projeto"
-              class="button-open-project-description"><img src="./assets/CaretUp.svg" alt=""></button>
-              <img src="./assets/foto-projeto-portfolio.png" alt="print da pagina do projeto portfolio">
+            <div class="project-cover">
+              <button aria-label="Descrição do projeto" class="button-open-project-description"><img src="./assets/CaretUp.svg" alt=""></button>
+              <div>
+
+                <img class="project-cover-img" src="./assets/foto-projeto-portfolio.png" alt="print da pagina do projeto portfolio">
+              </div>
             </div>
             <div class="project-item-content hover">
               <button class="close-button"><img src="./assets/closeButton.svg" alt=""></button>
@@ -291,11 +295,11 @@
         <img src="./assets/Matheus Zoppé.svg" alt="">
       </div>
       <div class="footer-contacts font-2-m-l cor-c5">
-        <ul class="footer-social-links ">        
-          <li><a href=""><img src="./assets/Github_black.svg" alt=""></a></li>
-          <li><a href=""><img src="./assets/LinkedIN_black.svg" alt=""></a></li>          
-          <li><a href=""><img src="./assets/WhatsApp_black.svg" alt=""></a></li>        
-          
+        <ul class="footer-social-links ">
+          <li><a href="https://github.com/matheuszoppe" target="blank"><img src="./assets/Github_black.svg" alt=""></a></li>
+          <li><a href="https://www.linkedin.com/in/matheus-zoppe/" target="_blank"><img src="./assets/LinkedIN_black.svg" alt=""></a></li>
+          <li><a href="https://wa.me/5511971556762?text=Olá%20Matheus!" target="_blank"><img src="./assets/WhatsApp_black.svg" alt=""></a></li>
+
         </ul>
         <p>matheuszoppe@hotmail.com</p>
         <p>+55 11 9.7155-6762</p>
@@ -304,8 +308,8 @@
     <span class="font-2-m-l">© 2022 desenvolvido por Matheus Zoppé. </span>
   </footer>
 
-  
-<script src="script.js"></script>  
+
+  <script src="script.js"></script>
 </body>
 
 </html>
