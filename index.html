@@ -8,6 +8,8 @@
   <title>Portfólio | Matheus Zoppé</title>
   <link rel="shortcut icon" href="./assets/darth-vader.svg" type="image/x-icon">
 
+  
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet" />
@@ -21,8 +23,8 @@
       <div class="header-img">
         <img src="./assets/darth-vader.svg" alt="icone darth vader" />
       </div>
-      <nav>
-        <ul class="header-menu font-2-m cor-c5">
+      <nav aria-label="Navegação primaria" class="header-menu font-2-m cor-c5">
+        <ul>
           <li><a href="#sobre"> Sobre</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projetos</a></li>
@@ -61,12 +63,12 @@
               <h3 class="skills-item-title">
                 HTML
               </h3>
-              <span class="sr-only">Intermediário</span>
+              <span class="sr-only ">Intermediário</span>
               <div class="saber">
                 <div class="saber-body">
                 </div>
                 <div class="saber-light">
-                  <span class="intermediary"></span>
+                  <span class="intermediary js-scroll"></span>
                 </div>
               </div>
             </li>
@@ -157,7 +159,9 @@
         <ul class="projects-items">
           <li class="project-item">
             <div class="project-capa">
-              <button class="button-open-project-description"><img src="./assets/CaretUp.svg" alt=""></button>
+              <button 
+              aria-label="Descrição do projeto"
+              class="button-open-project-description"><img src="./assets/CaretUp.svg" alt=""></button>
               <img src="./assets/foto-projeto-portfolio.png" alt="print da pagina do projeto portfolio">
             </div>
             <div class="project-item-content hover">
@@ -287,8 +291,7 @@
         <img src="./assets/Matheus Zoppé.svg" alt="">
       </div>
       <div class="footer-contacts font-2-m-l cor-c5">
-        <ul class="footer-social-links ">
-          <li><a href=""><img src="./assets/Mail_black.svg" alt=""></a></li>
+        <ul class="footer-social-links ">        
           <li><a href=""><img src="./assets/Github_black.svg" alt=""></a></li>
           <li><a href=""><img src="./assets/LinkedIN_black.svg" alt=""></a></li>          
           <li><a href=""><img src="./assets/WhatsApp_black.svg" alt=""></a></li>        

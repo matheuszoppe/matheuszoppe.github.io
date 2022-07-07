@@ -19,3 +19,21 @@ closeButton.forEach((iten, index) => {
     openDescription(index)
   })
 })
+
+
+//scroll
+
+const linksHeaderMenu = document.querySelectorAll('.header-menu a[href^="#"]')
+
+function scrollToSection(event){
+  event.preventDefault()
+  const hrefLink = event.currentTarget.getAttribute('href')
+  const section = document.querySelector(hrefLink)
+  section.scrollIntoView({
+    behavior: 'smooth',
+  })
+}
+
+linksHeaderMenu.forEach((link)=>{
+  link.addEventListener('click', scrollToSection)
+})
