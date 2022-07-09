@@ -1,11 +1,13 @@
-@import "./global/global.css";
-@import "./global/header.css";
-@import "./global/footer.css";
-
 @import "./utilidades/fonts.css";
 @import "./utilidades/colors.css";
 
 @import "./components/lightSaberProgress.css";
+@import "./components/githubButton.css";
+@import "./components/linkedinButton.css";
+
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
 
 @import "./home/intro.css";
 @import "./home/about-me.css";

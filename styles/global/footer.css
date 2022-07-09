@@ -11,6 +11,13 @@ footer {
 .footer-contacts {
   text-align: left;
 }
+
+.footer-contacts p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .footer-contacts p + p {
   padding-top: 8px;
 }
@@ -27,8 +34,8 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 470px){
-  .footer{
+@media (max-width: 470px) {
+  .footer {
     flex-direction: column;
     gap: 40px;
   }

@@ -20,20 +20,12 @@
   padding: 12px 0 40px 0;
 }
 
-.intro-content-button {
-  background-color: var(--cor-p2);
+.intro-links{
   display: flex;
-  align-items: center;
-  gap: 12px;
-  text-transform: uppercase;
-  padding: 15px 30px;
-  border-radius: 100px;
+  gap: 20px;
 }
 
-.intro-content-button:hover {
-  background-color: var(--cor-p3);
-  content: "LinkedIn";
-}
+
 @media (max-width: 760px) {
   .intro-img {
     max-width: 60%;
