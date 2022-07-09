@@ -1,6 +1,6 @@
-<svg width="40" height="630" viewBox="0 0 40 630" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M20 0.5V585.5" stroke="white" stroke-dasharray="8 8"/>
-<rect x="40" y="630" width="40" height="40" transform="rotate(-180 40 630)" fill="url(#pattern0)"/>
+<svg width="40" height="463" viewBox="0 0 40 463" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M20 0L20 418" stroke="white" stroke-dasharray="8 8"/>
+<rect x="40" y="462.5" width="40" height="40" transform="rotate(-180 40 462.5)" fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_725_14" transform="scale(0.00195312)"/>

@@ -14,7 +14,7 @@
   --font-1: "FractulExB";
   --font-2: "Fractul";
   --font-3: "Open Sans";
-}
+} 
 
 .font-1-xxl {
   font: normal 8rem/1 var(--font-1), sans-serif;
@@ -68,13 +68,7 @@
   .font-2-l-b{
     font: 700 1.6rem/1.4 var(--font-3), sans-serif;
   }
-  .font-2-m{
-    font: 400 1.2rem/1.5 var(--font-3), sans-serif;
-  }
-
-  .font-2-m-b{
-    font: 700 1.2rem/1.5 var(--font-3), sans-serif;
-  }
+ 
 }
 
 

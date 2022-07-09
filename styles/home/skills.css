@@ -1,7 +1,4 @@
-.skills-bg {
-  background-color: var(--cor-3);
-  position: relative;
-}
+
 
 .skills {
   padding-top: 120px;
@@ -31,16 +28,9 @@
   padding-bottom: 12px;
 }
 
-.xwing-detail{
-  position: absolute;
-  right: 80px;
-}
 
-@media (max-width: 1000px){
-  .xwing-detail{
-    display: none;
-  }
-}
+
+
 
 @media (max-width: 600px) {
   .skills{

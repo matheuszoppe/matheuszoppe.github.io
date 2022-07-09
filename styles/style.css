@@ -8,5 +8,6 @@
 @import "./components/lightSaberProgress.css";
 
 @import "./home/intro.css";
+@import "./home/about-me.css";
 @import "./home/skills.css";
 @import "./home/projects.css";
