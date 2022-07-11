@@ -1,6 +1,7 @@
 .header-bg {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
   background: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   min-width: 100vw;
   position: fixed;
@@ -19,7 +20,7 @@
   flex-wrap: wrap;
 }
 
-.header-menu li {  
+.header-menu li {
   padding: 12px;
 }
 
@@ -41,10 +42,10 @@
     gap: 12px;
   }
 
-  .header-menu{
+  .header-menu {
     justify-content: center;
   }
-  .header-menu li {  
+  .header-menu li {
     padding: 8px;
   }
   .header-menu li:last-child {

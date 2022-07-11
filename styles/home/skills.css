@@ -17,7 +17,7 @@
   max-width: 48ch;
 }
 
-.skills-itens{
+.skills-items{
   display: flex;
   flex-wrap: wrap;
   gap: 28px 98px;
