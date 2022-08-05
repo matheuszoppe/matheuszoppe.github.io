@@ -1,3 +1,9 @@
+const Hover = document.querySelectorAll('.project-item-content')
+    console.log(Hover)
+    Hover.forEach((item)=>{
+    item.classList.add('js')    
+})
+
 //////// BUTTONS DA DESCRÇÃO DOS PROJETOS
 const imgsButtons = document.querySelectorAll('.js-imgButton')
 const arrowButtons = document.querySelectorAll('.button-open-project-description')
