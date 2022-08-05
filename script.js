@@ -1,5 +1,32 @@
+//////// BUTTONS DA DESCRÇÃO DOS PROJETOS
+const imgsButtons = document.querySelectorAll('.js-imgButton')
+const arrowButtons = document.querySelectorAll('.button-open-project-description')
+const sizeScreen = window.innerWidth
+
+const small = window.matchMedia('(max-width: 600px)').matches;
+
+if(small) {
+  imgsButtons.forEach((item)=>{
+    item.classList.remove('open-button')    
+  })
+  arrowButtons.forEach((item)=>{
+    item.classList.add('open-button')    
+  })
+} else {
+  imgsButtons.forEach((item)=>{
+    item.classList.add('open-button')    
+  })
+  arrowButtons.forEach((item)=>{
+    item.classList.remove('open-button')    
+  })
+}
+
+
+
+
+
 const openButton = document.querySelectorAll(
-  ".button-open-project-description"
+  ".open-button"
 );
 const closeButton = document.querySelectorAll(".close-button");
 const description = document.querySelectorAll(".project-item-content");
@@ -62,4 +89,5 @@ window.addEventListener("scroll", activeSkillsAnimation);
 
 const body = document.querySelector("body");
 body.classList.add("js");
+
 
